@@ -1,0 +1,112 @@
+---
+- summary: |
+    Каталог загружается
+  status: pass
+
+- summary: |
+    Карточки товаров отображаются корректно
+  status: pass
+
+- summary: |
+    Переход между страницами каталога
+  status: pass
+
+- summary: |
+    Фильтр по категории
+  status: pass
+
+- summary: |
+    Фильтр по бренду
+  status: pass
+
+- summary: |
+    Сброс фильтров
+  status: fail
+
+- summary: |
+    Поиск существующего товара
+  status: pass
+
+- summary: |
+    Поиск без совпадений
+  status: pass
+
+- summary: |
+    Поиск без учёта регистра
+  status: pass
+
+- summary: |
+    Очистка поискового запроса
+  status: fail
+
+- summary: |
+    Открытие подробной информации о товаре
+  status: pass
+
+- summary: |
+    Отображение цены и цены со скидкой
+  status: pass
+
+- summary: |
+    Отображение рейтинга товара
+  status: pass
+
+- summary: |
+    Добавление товара в корзину
+  status: pass
+
+- summary: |
+    Начальное количество товара в корзине
+  status: pass
+
+- summary: |
+    Повторное добавление одного товара
+  status: pass
+
+- summary: |
+    Добавление разных товаров
+  status:pass
+
+- summary: |
+    Удаление товара из корзины
+  status: pass
+
+- summary: |
+    Пустая корзина после удаления последнего товара
+  status: pass
+
+- summary: |
+    Пересчёт общей стоимости
+  status: pass
+
+- summary: |
+    Переход к оформлению заказа с товаром в корзине
+  status: pass
+
+- summary: |
+    Попытка оформить пустую корзину
+  status: pass
+
+- summary: |
+    Переключение языка
+  status: pass
+
+- summary: |
+    Навигация без полной перезагрузки страницы
+  status: fail
+
+- summary: |
+    Обновление страницы
+  status: pass
+
+- summary: |
+    Скорость загрузки каталога
+  status: pass
+
+- summary: |
+    Несколько быстрых нажатий на добавление в корзину
+  status: pass
+
+- summary: |
+    Сохранение корзины при переходе между разделами
+  status: pass
